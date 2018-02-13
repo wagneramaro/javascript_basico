@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+
+	<br>
+
+	<script type="text/javascript">
+		
+		/*index.Of - procurar valor dentro do array*/
+		document.write(lista.indexOf("Feijão"));
+
+		document.write(lista.join(",") + "<br>");
+
+		lista.pop(); /*REMOVE O ULTIMO ITEM DA LISTA*/
+
+		lista.shift(); /*REMOVE O PRIMEIRO ITEM DO ARRAY */
+
+		lista.push("Teste"); /*ADICIONA UM ITEM NO ARRAY */
+
+		if (lista.indexOf("Feijão") > -1){
+
+			alert("Tem na lista");
+		} else {
+			alert ("Não tem na lista");
+		}
+
+		document.write(lista.join(",") + "<br>");
+		
+	</script>
+
+</body>
+</html>
